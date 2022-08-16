@@ -106,3 +106,35 @@ let numero = 5;
 let valor = true;
 let valorUno = numero === 10;
 */
+
+/*
+operadores logicos
+
+&& solo es verdadero cuando ambas condiciones involucradas son verdaderas de lo contrario sera falso.
+
+|| siempre sera verdadero cuando una de varias de las condiciones involucradas sean verdaderas.
+
+
+let casa = "si";
+let tarea = "no";
+console.log(casa === "si" && tarea === "si");
+*/
+
+/*
+let respuestaTarea = prompt("Terminaste la tarea?");
+let respuestaCasa = prompt("Organizaste la casa?");
+
+if(respuestaTarea.toLowerCase() ==="si" && respuestaCasa.toLowerCase() ==="si"){
+    alert("Puedes salir a jugar");
+}else{
+    alert("No puedes salir a jugar");
+}
+*/
+
+let nombre = prompt("ingrese el nombre");
+
+if((nombre == "andres" || nombre == "ANDRES") &&(nombre !== "")){
+    alert("Hola andres")
+}else{
+    alert("No ingresaste los datos correctamente");
+}
